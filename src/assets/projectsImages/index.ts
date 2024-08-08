@@ -1,0 +1,11 @@
+export { default as Image01 } from "./IMG071852.jpg";
+export { default as Image02 } from "./20220617_115510.jpg";
+export { default as Image03 } from "./dji_export_1646882722323.jpg";
+export { default as Image04 } from "./20220701_161530.jpg";
+export { default as Image05 } from "./20211102_131350.jpg";
+export { default as Image06 } from "./20211110_182830.jpg";
+export { default as Image07 } from "./20201206_131639.jpg"; 
+export { default as Image08 } from "./20211130_083542.jpg"; 
+export { default as Image09 } from "./20220125_193503.jpg"; 
+export { default as Image10 } from "./20221020_110901.jpg"; 
+export { default as Image11 } from "./20210217_122935.jpg"; 
