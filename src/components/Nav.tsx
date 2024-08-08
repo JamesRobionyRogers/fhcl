@@ -1,15 +1,17 @@
 import React from 'react'; 
 
-import { useState } from 'react'
+import { useState } from 'react'; 
 
-import { Dialog, DialogPanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Dialog, DialogPanel } from '@headlessui/react'; 
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'; 
+
+import CompanyLogoImage from '../assets/Logo.svg'; 
 
 export default function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     const CompanyName = "Fraser Hyde Contracting Ltd."
-    const CompanyLogoImage = "./src/assets/Logo.svg"
+    // const CompanyLogoImage = "./src/assets/Logo.svg"
 
     // NOTE: If this changes, change in the footer as well
     const navigation = [

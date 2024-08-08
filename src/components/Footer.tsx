@@ -1,13 +1,13 @@
 import React from 'react'; 
 
+import { Logo, CCNZMemberLogo } from '../assets';
+
 export default function Footer() {
 
     const CompanyName = "Fraser Hyde Contracting Ltd.";
-    const CompanyLogoImage = "./src/assets/Logo.svg";
     const CurrentYear = new Date().getFullYear(); 
 
     const CivilContractorsLink = "https://civilcontractors.co.nz/find-a-contractor/11005/#maptop"; 
-    const CivilContractorsMembershipImage = "./src/assets/CCNZMemberLogo.svg";
     
     return (
         <footer className= "bg-gray-900">
@@ -15,10 +15,10 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className="grid grid-cols-2 gap-6">
                         <a href="#top" className="flex items-center sm:mb-0 space-x-3 rtl:space-x-reverse">
-                            <img src={CompanyLogoImage} className="h-12" alt="FHCL Company Logo" />
+                            <img src={Logo} className="h-12" alt="FHCL Company Logo" />
                         </a>
                         <a href={CivilContractorsLink} className="flex items-center sm:mb-0 space-x-3 rtl:space-x-reverse">
-                            <img src={CivilContractorsMembershipImage} className="h-14 py-1 saturate-0 invert opacity-80" alt="FHCL Company Logo" />
+                            <img src={CCNZMemberLogo} className="h-14 py-1 saturate-0 invert opacity-80" alt="FHCL Company Logo" />
                         </a>
                     </div>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
