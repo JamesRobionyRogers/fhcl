@@ -12,7 +12,7 @@ export default function Landing() {
 
     return (
         <div className="relative bg-cover max-h-2xl py-32">
-            <img src={LandingPageImage} className="absolute top-0 w-full h-full bg-sky-400"/> 
+            <img src={LandingPageImage} className="absolute top-0 w-full h-full"/> 
             
             <Nav />
 
