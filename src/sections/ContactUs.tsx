@@ -58,9 +58,9 @@ export default function Example() {
                 </p>
             </div>
 
-            <div className="mx-auto mt-16 max-w-7xl grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:mt-20">
+            <div className="mx-auto mt-16 max-w-7xl grid grid-cols-1 gap-y-10 sm:grid-cols-2 sm:mt-20">
                 <div className="flex gap-5 flex-col justify-start">
-                    <form action="#" method="" className="mx-auto max-w-xl">
+                    <form action="#" method="" className="max-w-xl md:mx-auto">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div>
                                 <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
