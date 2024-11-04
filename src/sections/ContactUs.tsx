@@ -72,7 +72,7 @@ export default function Example() {
                                         name="first-name"
                                         type="text"
                                         autoComplete="given-name"
-                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         ref={firstNameRef}
                                     />
                                 </div>
@@ -87,7 +87,7 @@ export default function Example() {
                                         name="last-name"
                                         type="text"
                                         autoComplete="family-name"
-                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         ref={lastNameRef}
                                     />
                                 </div>
@@ -103,7 +103,7 @@ export default function Example() {
                                         name="email"
                                         type="email"
                                         autoComplete="email"
-                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         ref={emailRef}
                                     />
                                 </div>
@@ -121,7 +121,7 @@ export default function Example() {
                                         <select
                                             id="country"
                                             name="country"
-                                            className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-3 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+                                            className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-3 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                                         >
                                             <option>+64</option>
                                         </select>
@@ -131,7 +131,7 @@ export default function Example() {
                                         name="phone-number"
                                         type="tel"
                                         autoComplete="tel"
-                                        className="block w-full rounded-md border-0 px-3.5 py-2 pl-14 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 pl-14 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         ref={phoneNumberRef}
                                     />
                                 </div>
@@ -145,7 +145,7 @@ export default function Example() {
                                         id="message"
                                         name="message"
                                         rows={4}
-                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         defaultValue={''}
                                         ref={messageRef}
                                     />
@@ -165,19 +165,19 @@ export default function Example() {
                 </div>
 
                 <div className="flex flex-col gap-8 justify-center pb-16">
-                    <img alt="" src={DownerGroupLogo} className="max-h-20" />
+                    <img alt="Downer group logo" src={DownerGroupLogo} className="max-h-20" />
                     <blockquote className="py-5 px-20 text-lg font-semibold text-center leading-6">
                         “Fraser takes the time to understand the needs of his clients and works tirelessly to ensure they are met. He is a pleasure to work with and I would recommend him to anyone looking for a reliable and professional contractor.”
                     </blockquote>
 
                     <figcaption className="px-8 flex flex-row gap-5 justify-center">
-                        <img alt="" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=96&amp;h=96&amp;q=80" className="rounded-full size-12 " />
+                        <img alt="Profile picture of person" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=96&amp;h=96&amp;q=80" className="rounded-full size-12 " />
                         <div>
                             <div className="font-semibold">
                                 Brenna Goyette
                             </div>
                             
-                            <div className="font-light text-gray-400">
+                            <div className="font-light text-gray-500">
                                 CEO of Workcation
                             </div>
                         </div>

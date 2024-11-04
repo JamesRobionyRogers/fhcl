@@ -21,7 +21,7 @@ export default function Footer() {
                             <img src={CCNZMemberLogo} className="h-14 py-1 saturate-0 invert opacity-80" alt="FHCL Company Logo" />
                         </a>
                     </div>
-                    <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-400 sm:mb-0 dark:text-gray-500">
                         <li>
                             <a href="#projects" className="hover:underline me-4 md:me-6">Projects</a>
                         </li>
@@ -37,7 +37,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-                <span className="block text-sm text-gray-500 sm:text-center">© {CurrentYear} {CompanyName}™. All Rights Reserved.</span>
+                <span className="block text-sm text-gray-400 sm:text-center">© {CurrentYear} {CompanyName}™. All Rights Reserved.</span>
             </div>
         </footer>
     ) 

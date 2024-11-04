@@ -48,7 +48,7 @@ export default function Projects() {
                                 return (
                                     <div key={index} className="col-span-1 w-full h-full aspect-square">
                                         <img
-                                            alt=""
+                                            alt="Image of projects FHCL have done"
                                             src={path}
                                             className={`w-full h-full object-cover`}
                                         />
@@ -59,7 +59,7 @@ export default function Projects() {
                             return (
                                 <div key={index} className="col-span-2 w-full h-[131px]">
                                     <img
-                                        alt=""
+                                        alt="Image of projects FHCL have done"
                                         src={path}
                                         className={`w-full h-full object-cover`}
                                     />  

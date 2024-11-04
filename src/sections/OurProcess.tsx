@@ -12,7 +12,7 @@ export default function OurProcess() {
                 Our Process
             </h2>
 
-            <ol className="relative border-s border-gray-200">
+            <ul className="relative border-s border-gray-200">
                 <br />
                 <li className="mb-10 ms-6">
                     <span className="absolute flex items-center justify-center w-12 h-12 text-3xl font-bold bg-white rounded-full -start-6 ring-8 ring-white font-[Oswald]">
@@ -80,7 +80,7 @@ export default function OurProcess() {
                         </div>
                     </div>
                 </li>
-            </ol>
+            </ul>
         </div>
     )
 }

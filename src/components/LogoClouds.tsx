@@ -36,7 +36,7 @@ export default function LogoClouds() {
                             return (
                                 <img
                                     key={index}
-                                    alt=""
+                                    alt="Company Logo"
                                     src={path}
                                     width={158}
                                     height={48}

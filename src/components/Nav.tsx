@@ -28,7 +28,7 @@ export default function Nav() {
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">{CompanyName}</span>
                         <img
-                            alt=""
+                            alt="Company Logo"
                             src={CompanyLogoImage}
                             className="h-10 w-auto"
                         />
@@ -61,7 +61,7 @@ export default function Nav() {
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">{CompanyName}</span>
                             <img
-                                alt=""
+                                alt="Company Logo"
                                 src={CompanyLogoImage}
                                 className="h-8 w-auto"
                             />
