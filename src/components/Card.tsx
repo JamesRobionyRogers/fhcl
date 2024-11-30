@@ -1,11 +1,22 @@
 import React from 'react'; 
+import clsx from 'clsx';
 
-export default function Card({props, aspectRatio}) {
+interface CardProps {
+    props: {
+        path: string;
+        title: string;
+        desc: string;
+    };
+    aspectRatio: string;
+    className?: string;
+}
+    
+export default function Card({props, aspectRatio, className}: CardProps) {
     
     const {path, title, desc} = props
 
     return (
-        <div className="max-w-sm">
+        <div className={clsx(className, "max-w-sm")}>
             
             <div style={{aspectRatio: aspectRatio}}>
                 <img src={path} alt="" className="w-full h-full object-cover" />

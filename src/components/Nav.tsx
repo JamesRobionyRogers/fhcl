@@ -30,7 +30,7 @@ export default function Nav() {
                         <img
                             alt="Company Logo"
                             src={CompanyLogoImage}
-                            className="h-10 w-auto"
+                            className="h-12 w-auto lg:h-16"
                         />
                     </a>
                 </div>

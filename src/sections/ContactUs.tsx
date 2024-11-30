@@ -165,13 +165,13 @@ export default function Example() {
                 </div>
 
                 <div className="flex flex-col gap-8 justify-center pb-16">
-                    <img alt="Downer group logo" src={DownerGroupLogo} className="max-h-20" />
+                    <img alt="Downer group logo" src={DownerGroupLogo} className="max-h-20" loading="lazy"/>
                     <blockquote className="py-5 px-20 text-lg font-semibold text-center leading-6">
                         “Fraser takes the time to understand the needs of his clients and works tirelessly to ensure they are met. He is a pleasure to work with and I would recommend him to anyone looking for a reliable and professional contractor.”
                     </blockquote>
 
                     <figcaption className="px-8 flex flex-row gap-5 justify-center">
-                        <img alt="Profile picture of person" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=96&amp;h=96&amp;q=80" className="rounded-full size-12 " />
+                        <img alt="Profile picture of person" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=96&amp;h=96&amp;q=80" className="rounded-full size-12 " loading="lazy"/>
                         <div>
                             <div className="font-semibold">
                                 Brenna Goyette
