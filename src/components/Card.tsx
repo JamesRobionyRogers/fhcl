@@ -19,7 +19,7 @@ export default function Card({props, aspectRatio, className}: CardProps) {
         <div className={clsx(className, "max-w-sm")}>
             
             <div style={{aspectRatio: aspectRatio}}>
-                <img src={path} alt="" className="w-full h-full object-cover" />
+                <img src={path} alt="" className="w-full h-full object-cover" loading='lazy'/>
             </div>
             <div className="py-2">
                 <h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">

@@ -171,7 +171,12 @@ export default function Example() {
                     </blockquote>
 
                     <figcaption className="px-8 flex flex-row gap-5 justify-center">
-                        <img alt="Profile picture of person" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=96&amp;h=96&amp;q=80" className="rounded-full size-12 " loading="lazy"/>
+                        <img 
+                            alt="Profile picture of person" 
+                            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=96&amp;h=96&amp;q=80" 
+                            className="rounded-full size-12"
+                            loading="lazy"
+                        />
                         <div>
                             <div className="font-semibold">
                                 Brenna Goyette
