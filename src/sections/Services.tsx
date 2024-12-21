@@ -46,7 +46,7 @@ export default function Services() {
                     {
                         ServicesImages.map((imageObj, index) => {
                             if (index <= 2) return; 
-                            return <Card key={index} props={imageObj} aspectRatio="4/2" className="!max-w-xl"/>
+                            return <Card key={index} props={imageObj} aspectRatio="4/2" className="!max-w-xl basis-3/6"/>
                         })
                     }
                 </div>

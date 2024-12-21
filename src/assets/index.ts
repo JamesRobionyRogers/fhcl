@@ -1,4 +1,7 @@
-export { default as LandingPageImage } from './LandingPage.jpg'; 
+export { default as LandingPageImage } from './LandingPage.jpg';
+export { default as LandingPageImage1920x1080 } from './LandingPage-1920x1080.png'; // './LandingPage.jpg';
+export { default as LandingPage960x520 } from './LandingPage-960x520.jpg';
+export { default as LandingPage480x270 } from './LandingPage-480x270.jpg';
 
 export { default as Logo } from './Logo.svg';
 

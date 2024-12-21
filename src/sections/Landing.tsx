@@ -4,7 +4,7 @@ import React from 'react'
 
 import Nav from '../components/Nav'; 
 
-import { LandingPageImage } from '../assets';
+import { LandingPageImage, LandingPageImage1920x1080, LandingPage960x520, LandingPage480x270} from '../assets';
 
 export default function Landing() {
 
@@ -14,6 +14,8 @@ export default function Landing() {
         <div className="relative bg-cover max-h-3xl py-32 lg:h-[80vh]">
             <img 
                 src={LandingPageImage} 
+                srcSet={`${LandingPageImage1920x1080} 1920w, ${LandingPage960x520} 960w, ${LandingPage480x270} 480w`}
+                sizes="(min-width: 860px) 98.6vw, (min-width: 780px) 1060px, (min-width: 520px) 804px, calc(-28.5vw + 947px)"
                 alt="Landing page background image" 
                 className="absolute top-0 w-full h-full object-cover object-left"
             /> 
