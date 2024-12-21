@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Helmet from 'react-helmet';
 
 import Nav from '../components/Nav'; 
 
@@ -11,6 +12,18 @@ export default function Landing() {
     const Slogan = "No job too big or small, we do it all"
 
     return (
+    <>
+        {/* Preloading the Largest Content Paint */}
+        <Helmet>
+            <link 
+                rel="preload" 
+                as="image" 
+                href={LandingPageImage1920x1080}
+                imageSrcSet={`${LandingPageImage1920x1080} 1920w, ${LandingPage960x520} 960w, ${LandingPage480x270} 480w`}
+                imageSizes="(min-width: 860px) 98.6vw, (min-width: 780px) 1060px, (min-width: 520px) 804px, calc(-28.5vw + 947px)"
+            />
+        </Helmet>
+        
         <div className="relative bg-cover max-h-3xl py-32 lg:h-[80vh]">
             <img 
                 src={LandingPageImage} 
@@ -47,5 +60,6 @@ export default function Landing() {
 
             </div>
         </div>
+    </>
     )
 }
