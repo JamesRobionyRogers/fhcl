@@ -21,8 +21,8 @@ export default function OurProcess() {
                         </span>
                         <div className="pl-3 pt-2">
                             <h3 className="flex items-center mb-1 text-3xl font-semibold text-gray-900">Contact Us</h3>
-                            <p className="mb-4 text-base font-normal text-gray-500">
-                                Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.
+                            <p className="my-4 text-base font-normal text-gray-500">
+                                Fraser is your direct point of contact, ensuring clear communication and a quick response to your enquiries. We are here to address your questions, discuss project details, and kickstart the process.
                             </p>
                             <div>
                                 <a href="#contact-us" className="inline-flex items-center mx-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700-700-700">
@@ -35,9 +35,6 @@ export default function OurProcess() {
                                     Phone Us
                                 </a>
                             </div>
-                            <p className="my-4 text-base font-normal text-gray-500">
-                                Fraser is your direct point of contact, ensuring clear communication and a quick response to your inquiries. We are here to address your questions, discuss project details, and kickstart the process.
-                            </p>
                             
                         </div>
                     </li>

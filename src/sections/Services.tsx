@@ -9,10 +9,10 @@ export default function Services() {
     const ServicesImagesFolder = "./src/assets/servicesImages";
 
     const ServicesImages = [
-        { path: Demolition, title: "Demolition", desc: "FHCL cover a wide range of demolition needs, from ripping up concrete paths to 3-4 story buildings/dwellings."},
+        { path: Demolition, title: "Demolition", desc: "FHCL cover a wide range of demolition needs, from ripping up concrete paths to 3-4 storey buildings/dwellings."},
         { path: Earthworks, title: "Earthworks", desc: "From your back lawn dig out to small developments, cut to fills and any general site works."},
         { path: RetainingWallsAndPiling, title: "Retaining Walls & Piling", desc: "FHCL can construct a wide range of retaining and piling methods."},
-        { path: ForestryRoads, title: "Forestry Roading", desc: "FHCL covers the lower north island for your forestry roading requirements."},
+        { path: ForestryRoads, title: "Forestry Roading", desc: "FHCL covers the Lower North Island for your forestry roading requirements."},
         // { path: Rail, title: "Rail", desc: "FHCL work alongside various reputable companies on railways in the region."},
         { path: VegetationManagement, title: "Vegetation Management", desc: "FHCL's team can cater to your vegetation management and removal needs, including tree felling, de-stumping/grinding, mulching and trimming."},
         // { path: PlantHire, title: "Plant Hire", desc: "FHCL offer plant and operator hire for works within the region."},
