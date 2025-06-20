@@ -32,11 +32,19 @@ Starting the project off involved drafting up basic wireframes and mockups to vi
 
 Finally the website was deployed using Github Pages and made accessible to the public via their domain [fhcl.nz](fhcl.nz). The deployment process involved configuring the DNS records, optimising the sites assets for performance, and improving SEO via meta tags and structured data.
 
+<!-- USAGE EXAMPLES -->
+## View Project
+
+<div align="center">
+   <img style="width: 100%" src="https://github.com/user-attachments/assets/e51a705c-cc32-4a6c-a387-ebcdcba7041e">
+</div>
+
 ## Built With
 
 * **Build Tool:** [Vite](https://vitejs.dev/)
 * **Framework:** [React.js](https://reactjs.org) 
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+
 
 ## File Tree 
 - `docs` - Contains the build files for the website. Github Pages uses this folder to serve the website.  
@@ -67,13 +75,6 @@ This will create a `docs` folder containing the production-ready files. You can 
 
 > [!NOTE]  
 > Ensure the file 'CNAME' is present in the `docs` folder. This file contains the custom domain name for the website, which is `fhcl.nz`. If you are deploying to a different domain, you will need to update this file accordingly.
-
-<!-- USAGE EXAMPLES -->
-## View Project
-
-<div align="center">
-   <img style="width: 100%" src="https://github.com/user-attachments/assets/e51a705c-cc32-4a6c-a387-ebcdcba7041e">
-</div>
 
 
 
